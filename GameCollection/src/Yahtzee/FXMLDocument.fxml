@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="453.0" style="-fx-background-color: GREEN;" >
+   <children>
+      <ImageView id="dice1" fitHeight="85.0" fitWidth="85.0" layoutX="12.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="dice2" fitHeight="85.0" fitWidth="85.0" layoutX="98.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="dice3" fitHeight="85.0" fitWidth="85.0" layoutX="185.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="dice4" fitHeight="85.0" fitWidth="85.0" layoutX="270.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="dice5" fitHeight="85.0" fitWidth="85.0" layoutX="355.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="1" layoutX="28.0" layoutY="106.0" mnemonicParsing="false" text="Hold" />
+      <Button id="2" layoutX="115.0" layoutY="106.0" mnemonicParsing="false" text="Hold" />
+      <Button id="3" layoutX="201.0" layoutY="106.0" mnemonicParsing="false" text="Hold" />
+      <Button id="4" layoutX="286.0" layoutY="106.0" mnemonicParsing="false" text="Hold" />
+      <Button id="5" layoutX="371.0" layoutY="106.0" mnemonicParsing="false" text="Hold" />
+      <Label alignment="CENTER" layoutX="205.0" layoutY="154.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" text="Player 1" />
+      <Label alignment="CENTER" layoutX="316.0" layoutY="154.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" text="Player 2" />
+      <Label id="ones_1" alignment="CENTER" layoutX="205.0" layoutY="185.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="twos_1" alignment="CENTER" layoutX="205.0" layoutY="216.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="threes_1" alignment="CENTER" layoutX="205.0" layoutY="247.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="fours_1" alignment="CENTER" layoutX="205.0" layoutY="278.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="fives_1" alignment="CENTER" layoutX="205.0" layoutY="309.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="sixes_1" alignment="CENTER" layoutX="205.0" layoutY="340.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="sum_1" alignment="CENTER" layoutX="205.0" layoutY="371.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" />
+      <Label id="bonus_1" alignment="CENTER" layoutX="205.0" layoutY="402.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" />
+      <Label id="threeofakind_1" alignment="CENTER" layoutX="205.0" layoutY="433.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="fourofakind_1" alignment="CENTER" layoutX="205.0" layoutY="464.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="fullhouse_1" alignment="CENTER" layoutX="205.0" layoutY="495.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="smallstraight_1" alignment="CENTER" layoutX="205.0" layoutY="526.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="largestraight_1" alignment="CENTER" layoutX="205.0" layoutY="557.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="chance_1" alignment="CENTER" layoutX="205.0" layoutY="588.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="yahtzee_1" alignment="CENTER" layoutX="205.0" layoutY="619.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="185.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Ones" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="216.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Twos" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="247.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Threes" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="278.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Fours" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="309.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Fives" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="340.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Sixes" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="371.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Sum" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="402.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Bonus" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="433.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Three of a kind" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="464.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Four of a kind" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="495.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Full House" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="526.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Small Straight" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="557.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Large Straight" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="588.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Chance" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="619.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Yahtzee" />
+      <Button id="Roll" layoutX="204.0" layoutY="725.0" mnemonicParsing="false" text="Roll" />
+      <Label id="info" alignment="CENTER" layoutX="28.0" layoutY="689.0" prefHeight="31.0" prefWidth="397.0" style="-fx-background-color: White; -fx-border-color: black;" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="650.0" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: White; -fx-border-color: black;" text="Total Score" />
+      <Label id="total_1" alignment="CENTER" layoutX="205.0" layoutY="650.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" />
+      <Label id="total_2" alignment="CENTER" layoutX="316.0" layoutY="650.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" />
+      <Label id="yahtzee_2" alignment="CENTER" layoutX="316.0" layoutY="619.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="chance_2" alignment="CENTER" layoutX="316.0" layoutY="588.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="largestraight_2" alignment="CENTER" layoutX="316.0" layoutY="557.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="smallstraight_2" alignment="CENTER" layoutX="316.0" layoutY="526.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="fullhouse_2" alignment="CENTER" layoutX="316.0" layoutY="495.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="fourofakind_2" alignment="CENTER" layoutX="316.0" layoutY="464.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="threeofakind_2" alignment="CENTER" layoutX="316.0" layoutY="433.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="bonus_2" alignment="CENTER" layoutX="316.0" layoutY="402.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" />
+      <Label id="sum_2" alignment="CENTER" layoutX="316.0" layoutY="371.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" />
+      <Label id="sixes_2" alignment="CENTER" layoutX="316.0" layoutY="340.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="fives_2" alignment="CENTER" layoutX="316.0" layoutY="309.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="fours_2" alignment="CENTER" layoutX="316.0" layoutY="278.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="threes_2" alignment="CENTER" layoutX="316.0" layoutY="247.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="twos_2" alignment="CENTER" layoutX="316.0" layoutY="216.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+      <Label id="ones_2" alignment="CENTER" layoutX="316.0" layoutY="185.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: White; -fx-border-color: black;" textFill="RED" />
+   </children>
+</Pane>
